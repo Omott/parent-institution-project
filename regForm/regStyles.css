@@ -9,8 +9,7 @@ html {
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	background: 
-		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+	background-color:rgba(110,200,110,0.5);	
 }
 
 body {
@@ -82,6 +81,7 @@ body {
 }
 /*progressbar*/
 #progressbar {
+	margin-left: 100px;
 	margin-bottom: 30px;
 	overflow: hidden;
 	/*CSS counters to number the steps*/
